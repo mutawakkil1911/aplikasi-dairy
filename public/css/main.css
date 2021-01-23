@@ -1,0 +1,108 @@
+/* font-family: 'Pacifico', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* body */
+body {
+     font-family: 'Poppins', sans-serif;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     padding-top: 40px;
+     padding-bottom: 40px;
+     background-color: #f5f5f5;
+}
+
+/* nama aplikasi */
+.namaAplikasi {
+     font-family: 'Pacifico', cursive;
+}
+
+/* profil user */
+.idUser {
+     border-radius: 20px;
+     border-color: #212529;
+     background-color: #212529;
+     color: #ffffff;
+}
+
+/* tombol satu */
+.tombolSatu {
+     border-color: #F9FAFB;
+     background-color: #212529;
+     color: #F9FAFB;
+}
+.tombolSatu:hover {
+     border-color: #212529;
+     background-color: #F9FAFB;
+     color: #212529;
+}
+
+/* tombol dua */
+.tombolDua {
+     border-color: #212529;
+     background-color: #F9FAFB;
+     color: #212529;  
+}
+.tombolDua:hover {
+     border-color: #F9FAFB;
+     background-color: #212529;
+     color: #F9FAFB;
+}
+
+/* garis satu */
+.garisSatu {
+     border-color: #F9FAFB;
+}
+
+/* isi cerita */
+.isiCerita {
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     font-size: 15px;
+}
+.blockquote-footer {
+     font-size: 10px;
+     font-style: italic;
+}
+
+.form-signin {
+     width: 100%;
+     max-width: 330px;
+     padding: 15px;
+     margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+   
